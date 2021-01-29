@@ -7,5 +7,5 @@
 ![Software UI](https://github.com/Sayyednaa/GUI-Profit-Loss-Finder/blob/main/src/Loss.JPG?raw=true?)
 
 ##Challenges
-> Chnage The Color Of Loss Text Into Red
+> Chnage The Color Of Loss Text Into Red.
 >Add error messages on errors.
