@@ -14,7 +14,7 @@ class Main:
         
         self.root.geometry("400x200+500+200")
         self.root.resizable(False,False)
-        self.root.title("Profit & Loss Finder | Developed By:- Sayyed Nawab Abdul Ali")
+        self.root.title("Profit & Loss Finder | Developed By:-A.Ali")
         # self.root.config(bg='black')
 
 
@@ -60,10 +60,12 @@ class Main:
            
 
         elif int(Sp)<int(Cp):
-             Result=loss.loss(Cp,Sp)
+            Result=loss.loss(Cp,Sp)
+           
         
         elif int(Sp)==int(Cp)or int(Cp)==int(Sp):
             Result=("Nothing has gained nor loss")
+        
 
         RessultLabel=Label(self.root,text=Result,fg="green",font=("times new roman",15,"bold")).place(x=0,y=150,relwidth=1)
         

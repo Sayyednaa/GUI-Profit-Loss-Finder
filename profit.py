@@ -4,6 +4,6 @@ def profit(Sp,Cp):
     
     res=(int(Result)/int(Cp)*100)
    
-    final=(f'Gain Of {Result} and {res}%')
+    final=(f'Profit Of {Result} and {res}%')
     return final
             
